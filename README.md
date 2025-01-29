@@ -22,9 +22,8 @@ chmod +x quickPush/deploy.sh
 Ouvrez votre fichier `package.json` et ajoutez la ligne suivante dans la section `"scripts"` :
 
 ```json
-"scripts": {
-  "deploy": "./quickPush/deploy.sh"
-}
+
+  "deploy": "./quickPush/deploy.sh",
 ```
 
 ## 🚀 Utilisation
