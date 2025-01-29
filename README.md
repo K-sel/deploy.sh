@@ -12,22 +12,22 @@ mkdir scripts
 cd scripts
 ```
 
-### 2. Créez un fichier deploy.sh dans votre dossier scripts et copiez-coller le contenu de deploy.sh
+### 2. Créez un fichier deploy.sh dans votre dossier scripts
 
 ```bash
 touch deploy.sh
 ```
 
-#### 2.1 Copier coller le contenu de deploy.sh dans votre propre deploy.sh (celui qu'on vient de créer)
+### 3 Copier coller le contenu de deploy.sh dans votre propre deploy.sh (celui qu'on vient de créer)
 
 
-### 3. Rendre le script exécutable (toujours en étant dans le dossier scritps)
+### 4. Rendre le script exécutable (toujours en étant dans le dossier scritps)
 
 ```bash
 chmod +x deploy.sh
 ```
 
-### 4. Ajouter le script dans `package.json`
+### 5. Ajouter le script dans `package.json`
 
 Ouvrez votre fichier `package.json` et ajoutez la ligne suivante dans la section `"scripts"` :
 
