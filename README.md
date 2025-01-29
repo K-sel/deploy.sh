@@ -18,10 +18,13 @@ cd scripts
 touch deploy.sh
 ```
 
-### 3. Rendre le script exécutable
+#### 2.1 Copier coller le contenu de deploy.sh dans votre propre deploy.sh (celui qu'on vient de créer)
+
+
+### 3. Rendre le script exécutable (toujours en étant dans le dossier scritps)
 
 ```bash
-chmod +x scripts/deploy.sh
+chmod +x deploy.sh
 ```
 
 ### 4. Ajouter le script dans `package.json`
