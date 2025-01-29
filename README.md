@@ -5,25 +5,32 @@ Ce dépôt vous permet d'automatiser le build et le déploiement d'un projet **N
 ## 📌 Installation
 
 
-### 1. Cloner ce dépôt pour récupérer `deploy.sh` **à la racine de votre projet VScode**
+### 1. Créer un dossier "scripts" **à la racine de votre projet VScode** et entrez dedans
 
 ```bash
-git clone git@github.com:K-sel/quickPush.git
+mkdir scripts
+cd scripts
 ```
 
-### 2. Rendre le script exécutable
+### 2. Créez un fichier deploy.sh dans votre dossier scripts et copiez-coller le contenu de deploy.sh
 
 ```bash
-chmod +x quickPush/deploy.sh
+touch deploy.sh
 ```
 
-### 3. Ajouter le script dans `package.json`
+### 3. Rendre le script exécutable
+
+```bash
+chmod +x scripts/deploy.sh
+```
+
+### 4. Ajouter le script dans `package.json`
 
 Ouvrez votre fichier `package.json` et ajoutez la ligne suivante dans la section `"scripts"` :
 
 ```json
 
-  "deploy": "./quickPush/deploy.sh",
+  "deploy": "./scripts/deploy.sh",
 ```
 
 ## 🚀 Utilisation
