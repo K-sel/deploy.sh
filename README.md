@@ -64,5 +64,3 @@ Ce script vous permet de **gagner du temps** en automatisant les étapes de dép
 
 Si vous avez des questions ou des suggestions, n’hésitez pas à ouvrir une issue sur le dépôt GitHub.
 
-🚀 Bon déploiement !
-
