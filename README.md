@@ -16,7 +16,7 @@ cd scripts
 ### 2. Cloner ce dépôt pour récupérer `deploy.sh`
 
 ```bash
-git clone https://github.com/votre-utilisateur/deploy-script.git .
+git clone git@github.com:K-sel/deploy.sh.git
 ```
 
 ### 3. Rendre le script exécutable
